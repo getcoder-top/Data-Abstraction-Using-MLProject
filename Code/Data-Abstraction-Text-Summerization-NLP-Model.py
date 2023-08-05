@@ -165,14 +165,14 @@ drive.mount('/content/drive')
 
 # = load_dataset("samsum")
 
-split_lengths = [len(dataset_samsum[split])for split in dataset_samsum]
+# split_lengths = [len(dataset_samsum[split])for split in dataset_samsum]
 
-print(f"Split lengths: {split_lengths}")
-print(f"Features: {dataset_samsum['train'].column_names}")
-print("\nDialogue:")
+# print(f"Split lengths: {split_lengths}")
+# print(f"Features: {dataset_samsum['train'].column_names}")
+# print("\nDialogue:")
 
-print(dataset_samsum["test"][1]["dialogue"])
+# print(dataset_samsum["test"][1]["dialogue"])
 
-print("\nSummary:")
+# print("\nSummary:")
 
-print(dataset_samsum["test"][1]["summary"])
+# print(dataset_samsum["test"][1]["summary"])
